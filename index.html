@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan's Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+
+        .header img {
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+        }
+
+        .header h1 {
+            margin: 10px 0 5px;
+        }
+
+        .header h2 {
+            margin: 0;
+            font-weight: normal;
+            font-size: 1.2em;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin: 10px 0;
+            font-weight: normal;
+            color: #555;
+        }
+
+        .profile-summary, .work-experience, .education, .certifications, .skills, .declaration {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .icon-container {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+
+        .icon-container img {
+            vertical-align: middle;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .header img {
+                max-width: 100px;
+            }
+
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+
+    <script defer>
+        function displayDate() {
+            const dateElement = document.getElementById('date');
+            const now = new Date();
+            const options = { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric', 
+                hour: '2-digit', 
+                minute: '2-digit',
+                hour12: false
+            };
+            dateElement.textContent = now.toLocaleDateString(undefined, options) + ' ' + now.toLocaleTimeString(undefined, { second: '2-digit' });
+        }
+
+        setInterval(displayDate, 1000);
+        window.onload = displayDate;
+    </script>
+
+</head>
+
+<body>
+    <div class="header container">
+        <a href="./My photo.png">
+            <img src="./My photo.png" alt="Niranjan's profile picture">
+        </a>
+        <h1>Niranjankumar Sathyanarayanan</h1>
+        <h2>Experienced Rights & Permissions Professional</h2>
+    </div>
+
+    <div class="container">
+        <div class="profile-summary">
+            <h2>Profile Summary</h2>
+            <p>Highly experienced professional with over 7 years of expertise in Rights and Permissions. Proficient in
+                copyright law, photo research, permission clearance, negotiation, and team management. Track record of effectively
+                overseeing teams and ensuring compliance with copyright law. Seeking a challenging role to apply my extensive
+                knowledge and skills in Rights and Permissions for organizational success.
+            </p>
+        </div>
+
+        <div class="work-experience">
+            <h2>Work Experience</h2>
+
+            <h3>Lumina Datamatics • Puducherry, India • Full-time</h3>
+            <p>Deputy Manager, Rights & Permissions - College Department <br> May 2023 – July 2024</p>
+            <ul>
+                <li>Managed and supervised three diverse teams in the Rights and Permissions department:
+                    <ul>
+                        <li>The Wiley Copyright and Licensing team for Journals,</li>
+                        <li>The Cengage Learning Permission team, and</li>
+                        <li>The Photo Research team.</li>
+                    </ul>
+                </li>
+                <!-- Add other bullet points here -->
+            </ul>
+
+            <h3>Dorling Kindersley Publishing Pvt. Ltd. • Noida, India • Full-time</h3>
+            <p>Rights and Permissions Specialist - Operations Department <br> Jan 2023 - Apr 2023</p>
+            <ul>
+                <li>Researched whether permission was required to use copyrighted materials in publications.</li>
+                <!-- Add other bullet points here -->
+            </ul>
+
+            <h3>Lumina Datamatics • Puducherry, India • Full-time</h3>
+            <p>Team Lead, Rights & Permissions - College Department <br> Jun 2022 - Nov 2022</p>
+            <ul>
+                <li>Managed image research and permissions for various titles for multiple clients, including those for both school and college-level publishers.</li>
+                <!-- Add other bullet points here -->
+            </ul>
+
+            <h3>Integra Software Services Pvt. Ltd. • Puducherry, India • Full-time</h3>
+            <p>Sr. Permission Clearance Specialist - Rights & Permission Department <br> Sep 2019 - Jun 2022</p>
+            <ul>
+                <li>Identified all assets requiring copyright review by reviewing manuscripts and other documentation.</li>
+                <!-- Add other bullet points here -->
+            </ul>
+
+            <h3>Integra Software Services Pvt. Ltd. • Puducherry, India • Full-time</h3>
+            <p>Photo Researcher - Rights & Permissions Department <br> Mar 2017 - Aug 2019</p>
+            <ul>
+                <li>Performed research on photographs and identified the appropriate copyright holders.</li>
+                <!-- Add other bullet points here -->
+            </ul>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+
+            <h3>Bachelor of Technology in Electrical and Electronics Engineering</h3>
+            <p>Dr. SJS Paul Memorial College of Engineering & Technology – May 2015 <br>
+                Puducherry, India <br>
+                Affiliated to Pondicherry University <br>
+                GPA: 7.51
+            </p>
+
+            <h3>Higher Secondary School Certificate in Physics, Chemistry & Biology</h3>
+            <p>Blessed Mother Teresa Model Hr. Sec. School - March 2011 <br>
+                Puducherry, India <br>
+                Tamil Nadu State Board <br>
+                GPA: 7.17
+            </p>
+
+            <h3>Secondary School Leaving Certificate</h3>
+            <p>Immaculate Heart of Mary’s Hr. Sec. School - Mar 2009 <br>
+                Puducherry, India <br>
+                Tamil Nadu State Board <br>
+                GPA: 8.94
+            </p>
+        </div>
+
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <p>Received the Shabash Award for excellence in Photo Research at Integra Software Services Pvt. Ltd.</p>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <td>Attention to Detail</td>
+                    <td>Time Management</td>
+                    <td>Problem-Solving</td>
+                </tr>
+                <tr>
+                    <td>Communication</td>
+                    <td>Leadership</td>
+                    <td>Negotiating</td>
+                </tr>
+                <tr>
+                    <td>Quality Control</td>
+                    <td>Copyright Law</td>
+                    <td>Team Management</td>
+                </tr>
+                <tr>
+                    <td>Work-Life Balance</td>
+                    <td>Research</td>
+                    <td>Productivity</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="declaration">
+            <h2>Declaration</h2>
+            <p>I affirm that the provided information is accurate to the best of my knowledge, and I take full responsibility
+                for the accuracy of the details.</p>
+            <p>Place: Puducherry</p>
+            <p>Date & Time: <span id="date"></span></p>
+        </div>
+
+        <div class="right-align">
+            <p>[Niranjankumar Sathyanarayanan]</p>
+        </div>
+
+        <div class="icon-container">
+            <a href="mailto:niranj4.nk@gmail.com">
+                <img src="./Gmail logo-PNG.png" height="30" alt="Gmail Transparent Logo">
+            </a>
+            <a href="tel:+919003327716">
+                <img src="./Call Me.png" height="30" alt="Call me icon">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Niranjankumar Sathyanarayanan</p>
+    </footer>
+</body>
+
+</html>
